@@ -2,7 +2,7 @@ import { getHeroStats } from "@/lib/opendota";
 import { HeroesGrid } from "@/components/heroes-grid";
 import { Shield } from "lucide-react";
 
-export const revalidate = 600;
+export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: "Heroes - Iqbal Kay Sexy",

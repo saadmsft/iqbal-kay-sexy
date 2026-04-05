@@ -9,7 +9,7 @@ import { TrendingUp, Flame, Radio, Trophy } from "lucide-react";
 import Link from "next/link";
 import { AiSummarySection } from "./ai-summary";
 
-export const revalidate = 300;
+export const dynamic = 'force-dynamic';
 
 function getTopBracketWinRate(hero: HeroStats): number {
   const picks = hero["7_pick"] || 0;

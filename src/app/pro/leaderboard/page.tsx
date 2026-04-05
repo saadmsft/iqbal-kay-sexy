@@ -5,7 +5,7 @@ import { Crown } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
-export const revalidate = 1800;
+export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: "Leaderboard - Iqbal Kay Sexy",

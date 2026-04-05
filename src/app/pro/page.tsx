@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ProPlayersClient } from "./pro-client";
 
-export const revalidate = 1800;
+export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: "Pro Scene - Iqbal Kay Sexy",

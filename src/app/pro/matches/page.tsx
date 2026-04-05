@@ -2,7 +2,7 @@ import { getProMatches } from "@/lib/opendota";
 import { MatchSummary } from "@/components/match-summary";
 import { Gamepad2 } from "lucide-react";
 
-export const revalidate = 300;
+export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: "Pro Matches - Iqbal Kay Sexy",

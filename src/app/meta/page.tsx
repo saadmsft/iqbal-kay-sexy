@@ -2,7 +2,7 @@ import { getHeroStats } from "@/lib/opendota";
 import { MetaClient } from "./meta-client";
 import { TrendingUp } from "lucide-react";
 
-export const revalidate = 600;
+export const dynamic = 'force-dynamic';
 
 export const metadata = {
   title: "Meta Analysis - Iqbal Kay Sexy",
