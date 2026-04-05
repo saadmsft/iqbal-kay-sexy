@@ -22,7 +22,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"
-          output_location: ".next/standalone"
+          output_location: ""
           skip_app_build: false
         env:
           GITHUB_TOKEN: ${{ secrets.AI_TOKEN }}
